@@ -1,0 +1,23 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+h1 {
+color:white;
+background-color:black;
+padding: 10px;
+}
+h2 {
+color:white;
+background-color:purple;
+text-align:center;
+padding: 10px;
+}
+h3 {
+text-align:right;
+text-decoration:underline;
+background-color: lightskyblue;
+padding: 5px;
+}
+.blue {
+color:cyan
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        * {
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <Form>
+    <h1>Registration Form</h1>
+    <div>
+        <label for="first name">First Name: *</label>
+        <input type="text" id="first name" name="first name">
+    </div><br>
+    <div>
+        <label for="last name">Last Name: *</label>
+        <input type="text" id="last name" name="last name">
+    </div><br>
+    <div>
+        <label for="email">Email Address: *</label>
+        <input type="email" id="email" name="email">
+    </div><br>
+    <div>
+        <label for="password">Password: *</label>
+        <input type="password" id="password" name="password">
+    </div><br>
+    <div>
+        <label for="confirm_password">Confirm Password: *</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+    </div><br>
+    <div>
+        <label for="birthday">Birthday: *</label>
+        <input type="date" id="birthday" name="birthday">
+    </div><br>
+    <div>
+        <label for="gender_identity">Gender Identity:</label><br>
+        <input type="radio" name="male" value="Male"> Male
+        <input type="radio" name="female" value="Female"> Female
+        <input type="radio" name="Non-binary" value="Non-binary"> Non-binary
+        <input type="radio" name="I_prefer_not_to_answer" value="No_answer"> I prefer not to answer
+    </div> <br>
+    <div>
+        <label for="description">A short description about myself:</label><br>
+        <textarea name="message" id="description" cols="40" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="language">Favorite Language:</label>
+        <select name="language">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HMTL/CSS</option>
+            <option value="Python">Python</option>
+        </select><br>
+    </div>
+    <div>
+        <input type="checkbox" name="question">
+        <label for="checkbox" name="question">Yes, I would like to recieve periodic email updates</label>
+    </div><br>
+    <div>
+        <button type="reset">Create Account</button>
+    </div>
+    </Form>
+    <p>* Indicates a required field</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin:5px;
+}
+.search {
+border-radius: 30px;
+color:green;
+padding: 5px 50px 5px;
+border-color:mediumseagreen;
+border-style: solid;
+margin-left:10px;
+}
+.plus {
+border-radius: 50%;
+color:white;
+font-size:40px;
+background-color:mediumseagreen;
+border-style:none;
+margin: 5px;
+margin-left:10px;
+height:50px;
+width: 50px;
+}
+.account {
+background-color: #679bca;
+box-shadow: 5px 5px black;
+padding: 10px 20px 10px;
+color: white;
+margin-left:10px;
+
+}
+.container {
+    max-width:auto; 
+    position:absolute;
+}
